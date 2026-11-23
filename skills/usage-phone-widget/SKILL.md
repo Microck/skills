@@ -18,3 +18,11 @@ description: Build or update iPhone home screen widgets (ScriptWidget SWT packag
 6. **Keep rows compact.** Group each label, remaining value, bar, and reset text in one compact vertical stack, using a known-good device-rendered widget as the spacing baseline. If SwiftUI distributes extra vertical space between rows, test a bottom spacer to absorb it; verify the result on the phone before calling it fixed.
 
 7. **Package and verify.** ZIP `widget.json` and `main.jsx` at the archive root with a `.swt` extension. Match a known-good export for the target runtime. Known-good exports use `formatVersion: 2`, `runtimeVersion: "1.0"`, `entry: "main.jsx"`, and `supportedFamilies: ["systemLarge"]`. For a networked widget use `permissions: ["network"]` and put only the endpoint hostname in `networkDomains`. Check the ZIP, manifest, and JSX, then exercise fresh, stale, and unavailable data plus full and empty bars. When device access is authorized, import into ScriptWidget, grant the declared network access, select the intended script and widget size, and confirm refresh and layout on the iPhone over the intended network. Record which checks ran. A desktop preview cannot verify the iPhone runtime.
+
+8. **Walk the user through the phone setup.** Finish by giving the user these steps, in plain language, for the package you built. This skill cannot install the app or place the widget for them.
+   1. Install ScriptWidget from the App Store.
+   2. Send the `.swt` to the iPhone with AirDrop, iCloud Drive, or email. Open it, tap Share, and choose ScriptWidget.
+   3. Review the import and allow the network access it asks for.
+   4. Touch and hold the Home Screen, tap Edit, then Add Widget. Pick ScriptWidget and the Large size.
+   5. Tap the new widget (or touch and hold it and choose Edit Widget) and select the imported script.
+   Importing alone does not put anything on the Home Screen. If the widget shows an unavailable state, the phone cannot reach your snapshot over the private network yet; have the user connect to it and wait for the next refresh.
