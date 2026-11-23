@@ -1,5 +1,5 @@
 ---
-name: usage-phone-widget
+name: micr-usage-phone-widget
 description: Build or update iPhone home screen widgets (ScriptWidget SWT packages) that show remaining usage, balances, and reset times for AI subscriptions and other metered services in one place.
 ---
 
