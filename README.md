@@ -18,5 +18,5 @@ npx skills add Microck/skills
 - [usage-phone-widget](skills/usage-phone-widget/SKILL.md): build iPhone home screen widgets that show how much of your AI subscriptions and other services you have left, so you stop checking each dashboard separately.
 
   ```sh
-  npx skills add Microck/skills --skill usage-phone-widget
+  npx skills add Microck/skills@usage-phone-widget
   ```
