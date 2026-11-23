@@ -1,2 +1,14 @@
-# skills
+<a href="https://skills.micr.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+    <img alt="Microck/skills" src="assets/banner-light.png" width="360">
+  </picture>
+</a>
+
 A collection of agent skills by Microck.
+
+## Install
+
+```sh
+npx skills add Microck/skills
+```
