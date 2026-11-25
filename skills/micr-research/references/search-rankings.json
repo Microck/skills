@@ -1,0 +1,130 @@
+{
+  "as_of": "2026-11-23",
+  "rows": {
+    "Parallel Search (advanced, objective)": {
+      "quality": 83.41151630012374,
+      "latency": 12.651835482856375,
+      "deepsearchqa": 89.06788223370454
+    },
+    "Keenable Search (pro)": {
+      "quality": 83.01049150837392,
+      "latency": 3.0380080284511966,
+      "deepsearchqa": 88.42036341401062
+    },
+    "Octen Search (fast, dynamic)": {
+      "quality": 82.4252135921308,
+      "latency": 1.570944673112873,
+      "deepsearchqa": 83.60897410972571
+    },
+    "Keenable Search (realtime)": {
+      "quality": 82.08047043656265,
+      "latency": 2.2984256492622794,
+      "deepsearchqa": 87.85252242079906
+    },
+    "Parallel Search (fast, objective)": {
+      "quality": 81.58534281056444,
+      "latency": 3.8232396655020358,
+      "deepsearchqa": 89.00602843169334
+    },
+    "Exa Search (auto, dynamic highlights)": {
+      "quality": 80.3070559145186,
+      "latency": 23.315313343305103,
+      "deepsearchqa": 85.58783441022247
+    },
+    "Perplexity Search (medium)": {
+      "quality": 79.97770307525639,
+      "latency": 13.524441217053594,
+      "deepsearchqa": 80.76644255910252
+    },
+    "Exa Search (lite, dynamic highlights)": {
+      "quality": 79.1775571454928,
+      "latency": 6.163723219909266,
+      "deepsearchqa": 84.86600476981174
+    },
+    "Perplexity Search (high)": {
+      "quality": 78.94519900805821,
+      "latency": 12.727552676496304,
+      "deepsearchqa": 80.50226369084127
+    },
+    "Perplexity Search (low)": {
+      "quality": 76.9096345572129,
+      "latency": 16.60144827246559,
+      "deepsearchqa": 75.56223700497206
+    },
+    "Brave Search (LLM context)": {
+      "quality": 74.60320129535091,
+      "latency": 5.2942847916076,
+      "deepsearchqa": 78.14293721938608
+    },
+    "You.com Search (highlights)": {
+      "quality": 74.07346353165094,
+      "latency": 6.669259335022306,
+      "deepsearchqa": 76.72039059495283
+    },
+    "Nimble Search (standard)": {
+      "quality": 73.87421933325425,
+      "latency": 8.973696316771479,
+      "deepsearchqa": 76.28932466642938
+    },
+    "Firecrawl Search": {
+      "quality": 73.49061121200268,
+      "latency": 42.799689382713176,
+      "deepsearchqa": 73.6385003026747
+    },
+    "Parallel Search (basic)": {
+      "quality": 73.15350259750741,
+      "latency": 9.2286139296385,
+      "deepsearchqa": 79.46050779252222
+    },
+    "TinyFish Search (web)": {
+      "quality": 71.1670007205567,
+      "latency": 35.16049707685037,
+      "deepsearchqa": 67.16766882833676
+    },
+    "DeepSeek Search (summary)": {
+      "quality": 69.11915639122299,
+      "latency": 5.857902114724651,
+      "deepsearchqa": 75.02413584033565
+    },
+    "Linkup Search (standard)": {
+      "quality": 68.25401588776197,
+      "latency": 20.107120607319402,
+      "deepsearchqa": 68.92871432995258
+    },
+    "Linkup Search (fast)": {
+      "quality": 68.03135736557951,
+      "latency": 12.723331425674258,
+      "deepsearchqa": 68.42740543007187
+    },
+    "You.com Search (snippets)": {
+      "quality": 67.63483887369046,
+      "latency": 20.14960362180893,
+      "deepsearchqa": 63.40451662107136
+    },
+    "Parallel Search (turbo)": {
+      "quality": 67.07352132575795,
+      "latency": 6.3278120207345365,
+      "deepsearchqa": 70.22056397727387
+    },
+    "Nimble Search (lite)": {
+      "quality": 65.81761087710323,
+      "latency": 22.884645410708885,
+      "deepsearchqa": 61.28616596464306
+    },
+    "Tavily Search (basic)": {
+      "quality": 65.56767084450752,
+      "latency": 21.512380877093165,
+      "deepsearchqa": 74.36967920018922
+    },
+    "Brave Search (web)": {
+      "quality": 64.5916628588236,
+      "latency": 12.318554597321178,
+      "deepsearchqa": 62.27498857647078
+    },
+    "Linkup Search (flash, alpha)": {
+      "quality": 47.00904124562463,
+      "latency": 6.204369892989817,
+      "deepsearchqa": 59.5271237368739
+    }
+  }
+}

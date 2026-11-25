@@ -1,0 +1,1425 @@
+{
+  "name": "NEEDLE: web search API benchmark results",
+  "url": "https://keenableai.github.io/needle/results/",
+  "updated": "2026-11-23T15:12:00.000Z",
+  "window": {
+    "start": "2026-11-16T15:23Z",
+    "end": "2026-11-23T15:12Z"
+  },
+  "score": "Share of the ceiling: a synthetic engine that pools every engine's results per query. 100% is the best result list the whole field found together.",
+  "prices_as_of": "2026-08-21",
+  "verticals": [
+    {
+      "id": "scholar",
+      "name": "Scholar",
+      "runs": 13,
+      "last_run": "2026-11-23T10:14Z"
+    },
+    {
+      "id": "news",
+      "name": "News",
+      "runs": 145,
+      "last_run": "2026-11-23T15:12Z"
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "runs": 10,
+      "last_run": "2026-11-23T06:36Z"
+    },
+    {
+      "id": "agentic_rare",
+      "name": "AgenticRare",
+      "runs": 12,
+      "last_run": "2026-11-23T05:43Z"
+    },
+    {
+      "id": "legal",
+      "name": "Legal",
+      "runs": 13,
+      "last_run": "2026-11-23T12:52Z"
+    }
+  ],
+  "engines": [
+    {
+      "engine": "Keenable",
+      "engine_id": "keenable-realtime",
+      "overall": 0.7656,
+      "overall_ci": [
+        0.7592,
+        0.7721
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.8426,
+          "ci": [
+            0.8198,
+            0.864
+          ]
+        },
+        "news": {
+          "share": 0.6484,
+          "ci": [
+            0.638,
+            0.6588
+          ]
+        },
+        "finance": {
+          "share": 0.9204,
+          "ci": [
+            0.9122,
+            0.9289
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.4865,
+          "ci": [
+            0.4716,
+            0.5007
+          ]
+        },
+        "legal": {
+          "share": 0.93,
+          "ci": [
+            0.918,
+            0.941
+          ]
+        }
+      },
+      "price_usd_per_1k": 1,
+      "price_plan": "Dedicated capacity — at 100+ RPS",
+      "latency_ms": {
+        "p50": 165,
+        "p95": 274
+      },
+      "unique_urls_share": 0.0389
+    },
+    {
+      "engine": "perplexity-fast",
+      "engine_id": "perplexity-fast",
+      "overall": 0.7655,
+      "overall_ci": [
+        0.7557,
+        0.7749
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.8148,
+          "ci": [
+            0.7828,
+            0.8414
+          ]
+        },
+        "news": {
+          "share": 0.6849,
+          "ci": [
+            0.673,
+            0.6969
+          ]
+        },
+        "finance": {
+          "share": 0.9255,
+          "ci": [
+            0.9076,
+            0.9439
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.4937,
+          "ci": [
+            0.4703,
+            0.515
+          ]
+        },
+        "legal": {
+          "share": 0.9088,
+          "ci": [
+            0.8954,
+            0.9248
+          ]
+        }
+      },
+      "price_usd_per_1k": 1,
+      "price_plan": "fast search — $1 / 1k requests",
+      "latency_ms": {
+        "p50": 191,
+        "p95": 260
+      },
+      "unique_urls_share": 0.0739
+    },
+    {
+      "engine": "perplexity",
+      "engine_id": "perplexity",
+      "overall": 0.76,
+      "overall_ci": [
+        0.7444,
+        0.7736
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.8185,
+          "ci": [
+            0.7603,
+            0.8621
+          ]
+        },
+        "news": {
+          "share": 0.6736,
+          "ci": [
+            0.6565,
+            0.69
+          ]
+        },
+        "finance": {
+          "share": 0.9179,
+          "ci": [
+            0.8827,
+            0.9448
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.4924,
+          "ci": [
+            0.4587,
+            0.5177
+          ]
+        },
+        "legal": {
+          "share": 0.8974,
+          "ci": [
+            0.878,
+            0.9164
+          ]
+        }
+      },
+      "price_usd_per_1k": 5,
+      "price_plan": "flat rate",
+      "latency_ms": {
+        "p50": 231,
+        "p95": 375
+      },
+      "unique_urls_share": 0.0742
+    },
+    {
+      "engine": "exa-lite",
+      "engine_id": "exa-lite",
+      "overall": 0.7519,
+      "overall_ci": [
+        0.7404,
+        0.7631
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.7796,
+          "ci": [
+            0.7312,
+            0.8217
+          ]
+        },
+        "news": {
+          "share": 0.6676,
+          "ci": [
+            0.6563,
+            0.6796
+          ]
+        },
+        "finance": {
+          "share": 0.9269,
+          "ci": [
+            0.9074,
+            0.9437
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.4871,
+          "ci": [
+            0.4685,
+            0.5063
+          ]
+        },
+        "legal": {
+          "share": 0.8985,
+          "ci": [
+            0.8823,
+            0.9172
+          ]
+        }
+      },
+      "price_usd_per_1k": 4,
+      "price_plan": "pay-as-you-go",
+      "latency_ms": {
+        "p50": 331,
+        "p95": 497
+      },
+      "unique_urls_share": 0.0554
+    },
+    {
+      "engine": "exa",
+      "engine_id": "exa",
+      "overall": 0.7516,
+      "overall_ci": [
+        0.7413,
+        0.7613
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.8002,
+          "ci": [
+            0.7559,
+            0.8382
+          ]
+        },
+        "news": {
+          "share": 0.6524,
+          "ci": [
+            0.6423,
+            0.6639
+          ]
+        },
+        "finance": {
+          "share": 0.9278,
+          "ci": [
+            0.92,
+            0.9372
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.4755,
+          "ci": [
+            0.4558,
+            0.4933
+          ]
+        },
+        "legal": {
+          "share": 0.9021,
+          "ci": [
+            0.8821,
+            0.9203
+          ]
+        }
+      },
+      "price_usd_per_1k": 7,
+      "price_plan": "pay-as-you-go",
+      "latency_ms": {
+        "p50": 1343,
+        "p95": 3428
+      },
+      "unique_urls_share": 0.046
+    },
+    {
+      "engine": "brave-llmcontext",
+      "engine_id": "brave-llmcontext",
+      "overall": 0.7152,
+      "overall_ci": [
+        0.7091,
+        0.7211
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.7347,
+          "ci": [
+            0.7177,
+            0.7485
+          ]
+        },
+        "news": {
+          "share": 0.6645,
+          "ci": [
+            0.6548,
+            0.6745
+          ]
+        },
+        "finance": {
+          "share": 0.8719,
+          "ci": [
+            0.8612,
+            0.8818
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.4485,
+          "ci": [
+            0.4361,
+            0.4602
+          ]
+        },
+        "legal": {
+          "share": 0.8567,
+          "ci": [
+            0.8396,
+            0.8733
+          ]
+        }
+      },
+      "price_usd_per_1k": 5,
+      "price_plan": "flat rate",
+      "latency_ms": {
+        "p50": 743,
+        "p95": 1191
+      },
+      "unique_urls_share": 0.008
+    },
+    {
+      "engine": "parallel-advanced",
+      "engine_id": "parallel",
+      "overall": 0.7121,
+      "overall_ci": [
+        0.7068,
+        0.7173
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.6399,
+          "ci": [
+            0.6222,
+            0.6565
+          ]
+        },
+        "news": {
+          "share": 0.5923,
+          "ci": [
+            0.5823,
+            0.6025
+          ]
+        },
+        "finance": {
+          "share": 0.943,
+          "ci": [
+            0.9338,
+            0.9498
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.4596,
+          "ci": [
+            0.4494,
+            0.4679
+          ]
+        },
+        "legal": {
+          "share": 0.9259,
+          "ci": [
+            0.9156,
+            0.936
+          ]
+        }
+      },
+      "price_usd_per_1k": 5,
+      "price_plan": "pay-as-you-go",
+      "latency_ms": {
+        "p50": 2396,
+        "p95": 3719
+      },
+      "unique_urls_share": 0.0504
+    },
+    {
+      "engine": "context.dev",
+      "engine_id": "context",
+      "overall": 0.6779,
+      "overall_ci": [
+        0.669,
+        0.6867
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.9038,
+          "ci": [
+            0.8893,
+            0.9173
+          ]
+        },
+        "news": {
+          "share": 0.5463,
+          "ci": [
+            0.5357,
+            0.5566
+          ]
+        },
+        "finance": {
+          "share": 0.7982,
+          "ci": [
+            0.7771,
+            0.8173
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3398,
+          "ci": [
+            0.3241,
+            0.3554
+          ]
+        },
+        "legal": {
+          "share": 0.8013,
+          "ci": [
+            0.7674,
+            0.8318
+          ]
+        }
+      },
+      "price_usd_per_1k": 0.5,
+      "price_plan": "Scale — $499/mo / 1M credits, 1 credit per 10 results",
+      "latency_ms": {
+        "p50": 1881,
+        "p95": 5031
+      },
+      "unique_urls_share": 0.0672
+    },
+    {
+      "engine": "brave",
+      "engine_id": "brave",
+      "overall": 0.6587,
+      "overall_ci": [
+        0.6513,
+        0.6663
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.7152,
+          "ci": [
+            0.6974,
+            0.7304
+          ]
+        },
+        "news": {
+          "share": 0.6069,
+          "ci": [
+            0.5973,
+            0.6174
+          ]
+        },
+        "finance": {
+          "share": 0.7965,
+          "ci": [
+            0.7741,
+            0.8186
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3409,
+          "ci": [
+            0.326,
+            0.354
+          ]
+        },
+        "legal": {
+          "share": 0.8339,
+          "ci": [
+            0.8149,
+            0.8524
+          ]
+        }
+      },
+      "price_usd_per_1k": 5,
+      "price_plan": "flat rate",
+      "latency_ms": {
+        "p50": 540,
+        "p95": 761
+      },
+      "unique_urls_share": 0.0044
+    },
+    {
+      "engine": "parallel-fast",
+      "engine_id": "parallel-fast",
+      "overall": 0.651,
+      "overall_ci": [
+        0.6437,
+        0.6578
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.5109,
+          "ci": [
+            0.4951,
+            0.5291
+          ]
+        },
+        "news": {
+          "share": 0.5295,
+          "ci": [
+            0.5167,
+            0.5414
+          ]
+        },
+        "finance": {
+          "share": 0.9146,
+          "ci": [
+            0.8978,
+            0.9282
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3937,
+          "ci": [
+            0.3815,
+            0.4052
+          ]
+        },
+        "legal": {
+          "share": 0.9064,
+          "ci": [
+            0.8882,
+            0.9256
+          ]
+        }
+      },
+      "price_usd_per_1k": 1,
+      "price_plan": "pay-as-you-go",
+      "latency_ms": {
+        "p50": 694,
+        "p95": 1066
+      },
+      "unique_urls_share": 0.0529
+    },
+    {
+      "engine": "webiq",
+      "engine_id": "webiq",
+      "overall": 0.6467,
+      "overall_ci": [
+        0.6385,
+        0.6543
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.5065,
+          "ci": [
+            0.4892,
+            0.5216
+          ]
+        },
+        "news": {
+          "share": 0.6571,
+          "ci": [
+            0.6453,
+            0.6694
+          ]
+        },
+        "finance": {
+          "share": 0.8794,
+          "ci": [
+            0.8718,
+            0.8863
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3953,
+          "ci": [
+            0.3686,
+            0.416
+          ]
+        },
+        "legal": {
+          "share": 0.7954,
+          "ci": [
+            0.7717,
+            0.8166
+          ]
+        }
+      },
+      "price_usd_per_1k": 7,
+      "price_plan": "pay-as-you-go — $7 / 1k requests",
+      "latency_ms": {
+        "p50": 172,
+        "p95": 272
+      },
+      "unique_urls_share": 0.055
+    },
+    {
+      "engine": "you",
+      "engine_id": "you",
+      "overall": 0.6396,
+      "overall_ci": [
+        0.632,
+        0.6472
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.6591,
+          "ci": [
+            0.6412,
+            0.6751
+          ]
+        },
+        "news": {
+          "share": 0.6046,
+          "ci": [
+            0.5949,
+            0.6151
+          ]
+        },
+        "finance": {
+          "share": 0.7797,
+          "ci": [
+            0.7605,
+            0.798
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3295,
+          "ci": [
+            0.3156,
+            0.3422
+          ]
+        },
+        "legal": {
+          "share": 0.8249,
+          "ci": [
+            0.8015,
+            0.8477
+          ]
+        }
+      },
+      "price_usd_per_1k": 5,
+      "price_plan": "Web Search API plan",
+      "latency_ms": {
+        "p50": 535,
+        "p95": 675
+      },
+      "unique_urls_share": 0.0041
+    },
+    {
+      "engine": "parallel-turbo",
+      "engine_id": "parallel-turbo",
+      "overall": 0.6288,
+      "overall_ci": [
+        0.6226,
+        0.6354
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.4817,
+          "ci": [
+            0.4659,
+            0.4991
+          ]
+        },
+        "news": {
+          "share": 0.4766,
+          "ci": [
+            0.4647,
+            0.4889
+          ]
+        },
+        "finance": {
+          "share": 0.9104,
+          "ci": [
+            0.8946,
+            0.9252
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3789,
+          "ci": [
+            0.3639,
+            0.3913
+          ]
+        },
+        "legal": {
+          "share": 0.8966,
+          "ci": [
+            0.8826,
+            0.9122
+          ]
+        }
+      },
+      "price_usd_per_1k": 1,
+      "price_plan": "pay-as-you-go",
+      "latency_ms": {
+        "p50": 380,
+        "p95": 549
+      },
+      "unique_urls_share": 0.0536
+    },
+    {
+      "engine": "tinyfish",
+      "engine_id": "tinyfish",
+      "overall": 0.6283,
+      "overall_ci": [
+        0.6209,
+        0.6356
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.754,
+          "ci": [
+            0.7294,
+            0.777
+          ]
+        },
+        "news": {
+          "share": 0.403,
+          "ci": [
+            0.394,
+            0.4128
+          ]
+        },
+        "finance": {
+          "share": 0.8241,
+          "ci": [
+            0.8052,
+            0.8392
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3218,
+          "ci": [
+            0.315,
+            0.3273
+          ]
+        },
+        "legal": {
+          "share": 0.8388,
+          "ci": [
+            0.8195,
+            0.8592
+          ]
+        }
+      },
+      "price_usd_per_1k": 0,
+      "price_plan": "free",
+      "latency_ms": {
+        "p50": 1583,
+        "p95": 3757
+      },
+      "unique_urls_share": 0.0225
+    },
+    {
+      "engine": "octen",
+      "engine_id": "octen",
+      "overall": 0.6179,
+      "overall_ci": [
+        0.6072,
+        0.6286
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.5828,
+          "ci": [
+            0.552,
+            0.6139
+          ]
+        },
+        "news": {
+          "share": 0.5602,
+          "ci": [
+            0.5481,
+            0.5731
+          ]
+        },
+        "finance": {
+          "share": 0.8181,
+          "ci": [
+            0.79,
+            0.8455
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3516,
+          "ci": [
+            0.3297,
+            0.3747
+          ]
+        },
+        "legal": {
+          "share": 0.7769,
+          "ci": [
+            0.7557,
+            0.7953
+          ]
+        }
+      },
+      "price_usd_per_1k": 1,
+      "price_plan": "pay-as-you-go",
+      "latency_ms": {
+        "p50": 206,
+        "p95": 397
+      },
+      "unique_urls_share": 0.0517
+    },
+    {
+      "engine": "linkup",
+      "engine_id": "linkup",
+      "overall": 0.6173,
+      "overall_ci": [
+        0.6099,
+        0.6248
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.6274,
+          "ci": [
+            0.6073,
+            0.6429
+          ]
+        },
+        "news": {
+          "share": 0.5708,
+          "ci": [
+            0.5607,
+            0.5813
+          ]
+        },
+        "finance": {
+          "share": 0.804,
+          "ci": [
+            0.7876,
+            0.8223
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3785,
+          "ci": [
+            0.3662,
+            0.3914
+          ]
+        },
+        "legal": {
+          "share": 0.706,
+          "ci": [
+            0.6869,
+            0.7272
+          ]
+        }
+      },
+      "price_usd_per_1k": 5,
+      "price_plan": "pay-as-you-go — standard depth, searchResults",
+      "latency_ms": {
+        "p50": 1438,
+        "p95": 2064
+      },
+      "unique_urls_share": 0.0482
+    },
+    {
+      "engine": "deepseek",
+      "engine_id": "deepseek",
+      "overall": 0.6048,
+      "overall_ci": [
+        0.5974,
+        0.6123
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.4102,
+          "ci": [
+            0.3975,
+            0.4221
+          ]
+        },
+        "news": {
+          "share": 0.6322,
+          "ci": [
+            0.6218,
+            0.6423
+          ]
+        },
+        "finance": {
+          "share": 0.8358,
+          "ci": [
+            0.8141,
+            0.8603
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3695,
+          "ci": [
+            0.3517,
+            0.3869
+          ]
+        },
+        "legal": {
+          "share": 0.7761,
+          "ci": [
+            0.7599,
+            0.7905
+          ]
+        }
+      },
+      "price_usd_per_1k": 0.75,
+      "price_plan": "pay-as-you-go — $0.75 / 1k requests",
+      "latency_ms": {
+        "p50": 614,
+        "p95": 732
+      },
+      "unique_urls_share": 0.0972
+    },
+    {
+      "engine": "claude-search",
+      "engine_id": "claude-search",
+      "overall": 0.5911,
+      "overall_ci": [
+        0.5809,
+        0.6004
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.6829,
+          "ci": [
+            0.675,
+            0.69
+          ]
+        },
+        "news": {
+          "share": 0.476,
+          "ci": [
+            0.4639,
+            0.4883
+          ]
+        },
+        "finance": {
+          "share": 0.7127,
+          "ci": [
+            0.6759,
+            0.7448
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3184,
+          "ci": [
+            0.2982,
+            0.3381
+          ]
+        },
+        "legal": {
+          "share": 0.7655,
+          "ci": [
+            0.7404,
+            0.7898
+          ]
+        }
+      },
+      "price_usd_per_1k": 10,
+      "price_plan": "web search tool — $10 / 1k searches, plus tokens",
+      "latency_ms": {
+        "p50": 30386,
+        "p95": 48675
+      },
+      "unique_urls_share": 0.0227
+    },
+    {
+      "engine": "chatgpt-search",
+      "engine_id": "chatgpt-search",
+      "overall": 0.4896,
+      "overall_ci": [
+        0.4811,
+        0.4977
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.3759,
+          "ci": [
+            0.3588,
+            0.3904
+          ]
+        },
+        "news": {
+          "share": 0.3229,
+          "ci": [
+            0.3126,
+            0.333
+          ]
+        },
+        "finance": {
+          "share": 0.6771,
+          "ci": [
+            0.6516,
+            0.7058
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.3589,
+          "ci": [
+            0.3413,
+            0.3758
+          ]
+        },
+        "legal": {
+          "share": 0.7134,
+          "ci": [
+            0.6946,
+            0.7309
+          ]
+        }
+      },
+      "price_usd_per_1k": 10,
+      "price_plan": "web_search tool — $10 / 1k calls, plus tokens",
+      "latency_ms": {
+        "p50": 46822,
+        "p95": 73216
+      },
+      "unique_urls_share": 0.0483
+    },
+    {
+      "engine": "firecrawl",
+      "engine_id": "firecrawl",
+      "overall": 0.4895,
+      "overall_ci": [
+        0.4817,
+        0.4971
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.4813,
+          "ci": [
+            0.4647,
+            0.4989
+          ]
+        },
+        "news": {
+          "share": 0.2724,
+          "ci": [
+            0.2616,
+            0.2834
+          ]
+        },
+        "finance": {
+          "share": 0.7873,
+          "ci": [
+            0.7696,
+            0.8072
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.2392,
+          "ci": [
+            0.2293,
+            0.2488
+          ]
+        },
+        "legal": {
+          "share": 0.6675,
+          "ci": [
+            0.6415,
+            0.6926
+          ]
+        }
+      },
+      "price_usd_per_1k": 1.2,
+      "price_plan": "Scale — $599/mo / 1M credits, 2 credits per search",
+      "latency_ms": {
+        "p50": 2410,
+        "p95": 5928
+      },
+      "unique_urls_share": 0.0075
+    },
+    {
+      "engine": "bing/searchapi",
+      "engine_id": "bing",
+      "overall": 0.4808,
+      "overall_ci": [
+        0.4726,
+        0.4889
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.4513,
+          "ci": [
+            0.4426,
+            0.4603
+          ]
+        },
+        "news": {
+          "share": 0.3268,
+          "ci": [
+            0.3195,
+            0.3347
+          ]
+        },
+        "finance": {
+          "share": 0.7127,
+          "ci": [
+            0.6859,
+            0.7397
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.1772,
+          "ci": [
+            0.1665,
+            0.1877
+          ]
+        },
+        "legal": {
+          "share": 0.7362,
+          "ci": [
+            0.7096,
+            0.7597
+          ]
+        }
+      },
+      "price_usd_per_1k": 1,
+      "price_plan": "SearchApi.io Octo 5M — $5,000/mo",
+      "latency_ms": {
+        "p50": 2396,
+        "p95": 8463
+      },
+      "unique_urls_share": 0.014
+    },
+    {
+      "engine": "google/serper",
+      "engine_id": "google",
+      "overall": 0.4772,
+      "overall_ci": [
+        0.4685,
+        0.4859
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.4803,
+          "ci": [
+            0.4659,
+            0.495
+          ]
+        },
+        "news": {
+          "share": 0.2628,
+          "ci": [
+            0.2528,
+            0.2726
+          ]
+        },
+        "finance": {
+          "share": 0.7487,
+          "ci": [
+            0.7258,
+            0.7743
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.2353,
+          "ci": [
+            0.2231,
+            0.2463
+          ]
+        },
+        "legal": {
+          "share": 0.6588,
+          "ci": [
+            0.6321,
+            0.6854
+          ]
+        }
+      },
+      "price_usd_per_1k": 0.3,
+      "price_plan": "Serper Ultimate — $3,750 / 12.5M credits",
+      "latency_ms": {
+        "p50": 1171,
+        "p95": 3137
+      },
+      "unique_urls_share": 0.0061
+    },
+    {
+      "engine": "tavily",
+      "engine_id": "tavily",
+      "overall": 0.4444,
+      "overall_ci": [
+        0.4354,
+        0.4526
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.3257,
+          "ci": [
+            0.3115,
+            0.3399
+          ]
+        },
+        "news": {
+          "share": 0.2828,
+          "ci": [
+            0.2715,
+            0.2932
+          ]
+        },
+        "finance": {
+          "share": 0.8526,
+          "ci": [
+            0.8391,
+            0.8649
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.2789,
+          "ci": [
+            0.2595,
+            0.2962
+          ]
+        },
+        "legal": {
+          "share": 0.4821,
+          "ci": [
+            0.4478,
+            0.513
+          ]
+        }
+      },
+      "price_usd_per_1k": 5,
+      "price_plan": "Growth — $500/mo / 100k credits",
+      "latency_ms": {
+        "p50": 1310,
+        "p95": 3151
+      },
+      "unique_urls_share": 0.0151
+    },
+    {
+      "engine": "jina",
+      "engine_id": "jina",
+      "overall": 0.4231,
+      "overall_ci": [
+        0.4133,
+        0.4326
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.4976,
+          "ci": [
+            0.4834,
+            0.5112
+          ]
+        },
+        "news": {
+          "share": 0.2042,
+          "ci": [
+            0.1962,
+            0.2126
+          ]
+        },
+        "finance": {
+          "share": 0.7178,
+          "ci": [
+            0.6926,
+            0.7418
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.1506,
+          "ci": [
+            0.1402,
+            0.16
+          ]
+        },
+        "legal": {
+          "share": 0.5456,
+          "ci": [
+            0.5093,
+            0.5804
+          ]
+        }
+      },
+      "price_usd_per_1k": 3.4,
+      "price_plan": "$0.05 / 1M tokens, ≈68k tokens per search",
+      "latency_ms": {
+        "p50": 14998,
+        "p95": 24772
+      },
+      "unique_urls_share": 0.0062
+    },
+    {
+      "engine": "seltz",
+      "engine_id": "seltz",
+      "overall": 0.3461,
+      "overall_ci": [
+        0.334,
+        0.3577
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.1693,
+          "ci": [
+            0.1217,
+            0.2148
+          ]
+        },
+        "news": {
+          "share": 0.3491,
+          "ci": [
+            0.3349,
+            0.3622
+          ]
+        },
+        "finance": {
+          "share": 0.711,
+          "ci": [
+            0.6899,
+            0.7305
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.2123,
+          "ci": [
+            0.1991,
+            0.2266
+          ]
+        },
+        "legal": {
+          "share": 0.2891,
+          "ci": [
+            0.2664,
+            0.3127
+          ]
+        }
+      },
+      "price_usd_per_1k": 5,
+      "price_plan": "pay-as-you-go — $5 / 1k requests",
+      "latency_ms": {
+        "p50": 473,
+        "p95": 2059
+      },
+      "unique_urls_share": 0.0612
+    },
+    {
+      "engine": "kagi",
+      "engine_id": "kagi",
+      "overall": 0.2437,
+      "overall_ci": [
+        0.169,
+        0.3166
+      ],
+      "verticals": {
+        "scholar": {
+          "share": 0.3322,
+          "ci": [
+            0.1527,
+            0.5099
+          ]
+        },
+        "news": {
+          "share": 0.1467,
+          "ci": [
+            0.1171,
+            0.1777
+          ]
+        },
+        "finance": {
+          "share": 0.2856,
+          "ci": [
+            0.0706,
+            0.505
+          ]
+        },
+        "agentic_rare": {
+          "share": 0.1179,
+          "ci": [
+            0.0437,
+            0.1958
+          ]
+        },
+        "legal": {
+          "share": 0.3363,
+          "ci": [
+            0.1576,
+            0.5179
+          ]
+        }
+      },
+      "price_usd_per_1k": 12,
+      "price_plan": "pay-as-you-go",
+      "latency_ms": {
+        "p50": 1469,
+        "p95": 2290
+      },
+      "unique_urls_share": 0.0064
+    }
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "citation": "Styskin, A., Petri, M., & Gusev, I. (2026). NEEDLE: A live open-source search benchmark for AI agents (results as of November 2026). Keenable. https://keenableai.github.io/needle/results/ , https://doi.org/10.5281/zenodo.22095155"
+}

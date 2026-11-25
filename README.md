@@ -15,4 +15,5 @@ npx skills add Microck/skills
 
 ## Skills
 
+- [micr-research](skills/micr-research/SKILL.md): find and verify external evidence from primary sources, repositories, Reddit threads, and media using your configured providers.
 - [micr-usage-widget](skills/micr-usage-widget/SKILL.md): build iPhone home screen widgets that show how much of your AI subscriptions and other services you have left, so you stop checking each dashboard separately.
